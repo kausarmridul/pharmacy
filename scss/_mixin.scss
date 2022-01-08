@@ -1,0 +1,24 @@
+@mixin avereg-re {
+    font-family: $ffreg;
+    font-weight: 400;
+}
+
+@mixin averom-re {
+    font-family: $ffrom;
+    font-weight: 400;
+}
+
+@mixin averom-md {
+    font-family: $ffrom;
+    font-weight: 500;
+}
+
+@mixin avebk {
+    font-family: $ffbk;
+    font-weight: 400;
+}
+
+@mixin avebk-bl {
+    font-family: $ffbk;
+    font-weight: 900;
+}
