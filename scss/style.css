@@ -23,17 +23,17 @@ img {
     Import Font Css Starts
 ========================= */
 @font-face {
-  font-family: '$ffreg';
+  font-family: avenir-reg;
   src: url(../fonts/AvenirLTStd-Book.otf);
 }
 
 @font-face {
-  font-family: '$ffrom';
+  font-family: avenir-rom;
   src: url(../fonts/AvenirLTStd-Roman.otf);
 }
 
 @font-face {
-  font-family: '$ffbk';
+  font-family: avenir-bk;
   src: url(../fonts/AvenirLTStd-Black.otf);
 }
 
@@ -44,17 +44,17 @@ img {
     Import Font Css Starts
 ========================= */
 @font-face {
-  font-family: '$ffreg';
+  font-family: avenir-reg;
   src: url(../fonts/AvenirLTStd-Book.otf);
 }
 
 @font-face {
-  font-family: '$ffrom';
+  font-family: avenir-rom;
   src: url(../fonts/AvenirLTStd-Roman.otf);
 }
 
 @font-face {
-  font-family: '$ffbk';
+  font-family: avenir-bk;
   src: url(../fonts/AvenirLTStd-Black.otf);
 }
 
@@ -68,8 +68,8 @@ img {
   background: url(../images/banner.jpg);
   position: relative;
   z-index: 1;
-  padding-top: 165px;
-  padding-bottom: 120px;
+  padding-top: 150px;
+  padding-bottom: 95px;
 }
 
 #banner::after {
@@ -90,6 +90,8 @@ img {
   font-weight: 900;
   font-size: 48px;
   color: #fff;
+  line-height: 66px;
+  margin-bottom: 15px !important;
 }
 
 #banner .banner-text p {
@@ -97,6 +99,82 @@ img {
   font-weight: 400;
   font-size: 18px;
   color: #fff;
+  line-height: 25px;
+  margin-bottom: 45px !important;
+}
+
+#banner .banner-text .banner-menu ul {
+  margin-bottom: 55px !important;
+}
+
+#banner .banner-text .banner-menu ul li {
+  margin-right: 20px;
+}
+
+#banner .banner-text .banner-menu ul li a {
+  font-family: avenir-rom;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  display: inline-block;
+  line-height: 45px;
+  border: 1px solid #fff;
+  padding: 0 35px;
+  border-radius: 25px;
+  transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+
+#banner .banner-text .banner-menu ul li a:hover {
+  background: #fff;
+  border-color: #fff;
+  color: #043CAA;
+}
+
+#banner .banner-text .banner-menu ul li:last-of-type {
+  margin-right: 0;
+}
+
+#banner .banner-text .search-bar .input-group {
+  position: relative;
+}
+
+#banner .banner-text .search-bar .input-group i {
+  position: absolute;
+  top: 50%;
+  left: 14px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  z-index: 2222;
+  color: #7A7A7A;
+}
+
+#banner .banner-text .search-bar .input-group .form-control {
+  font-family: avenir-reg;
+  font-weight: 400;
+  font-size: 16px;
+  color: #7A7A7A;
+  border: none;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 0;
+  padding-left: 50px;
+  line-height: 48px;
+}
+
+#banner .banner-text .search-bar .input-group .input-group-text {
+  font-family: avenir-bk;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  background: #1BC768;
+  border: none;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 0 28px;
 }
 
 /* ====================

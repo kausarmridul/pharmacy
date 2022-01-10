@@ -22,3 +22,12 @@
     font-family: $ffbk;
     font-weight: 900;
 }
+
+
+@mixin trans($time) {
+    transition: all linear $time;
+    -ms-transition: all linear $time;
+    -moz-transition: all linear $time;
+    -o-transition: all linear $time;
+    -webkit-transition: all linear $time;
+}

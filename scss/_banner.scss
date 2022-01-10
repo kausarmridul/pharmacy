@@ -8,8 +8,8 @@
     background: url(../images/banner.jpg);
     position: relative;
     z-index: 1;
-    padding-top: 165px;
-    padding-bottom: 120px;
+    padding-top: 150px;
+    padding-bottom: 95px;
 
     &::after {
         content: '';
@@ -30,29 +30,85 @@
             @include avebk-bl;
             font-size: 48px;
             color: #fff;
+            line-height: 66px;
+            margin-bottom: 15px !important;
         }
 
         p {
             @include averom-re;
             font-size: 18px;
             color: #fff;
+            line-height: 25px;
+            margin-bottom: 45px !important;
         }
 
         .banner-menu {
             ul {
+                margin-bottom: 55px !important;
+
                 li {
-                    a {}
+                    margin-right: 20px;
+
+                    a {
+                        @include averom-re;
+                        font-size: 18px;
+                        color: #fff;
+                        display: inline-block;
+                        line-height: 45px;
+                        border: 1px solid #fff;
+                        padding: 0 35px;
+                        border-radius: 25px;
+                        @include trans(.4s);
+
+                        &:hover {
+                            background: #fff;
+                            border-color: #fff;
+                            color: $brand;
+                        }
+                    }
+
+                    &:last-of-type {
+                        margin-right: 0;
+                    }
                 }
             }
         }
 
         .search-bar {
             .input-group {
-                i {}
+                position: relative;
 
-                .form-control {}
+                i {
+                    position: absolute;
+                    top: 50%;
+                    left: 14px;
+                    transform: translateY(-50%);
+                    z-index: 2222;
+                    color: $col2
+                }
 
-                .input-group-text {}
+                .form-control {
+                    @include avereg-re;
+                    font-size: 16px;
+                    color: $col2;
+                    border: none;
+                    border-top-left-radius: 25px;
+                    border-bottom-left-radius: 25px;
+                    padding: 0;
+                    padding-left: 50px;
+                    line-height: 48px;
+                }
+
+                .input-group-text {
+                    @include avebk;
+                    font-size: 16px;
+                    color: #fff;
+                    background: $bg1;
+                    border: none;
+                    border-top-right-radius: 25px;
+                    border-bottom-right-radius: 25px;
+                    padding: 0 28px;
+                }
             }
         }
     }

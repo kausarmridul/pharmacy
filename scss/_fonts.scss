@@ -7,17 +7,17 @@ $ffrom :avenir-rom;
 $ffbk :avenir-bk;
 
 @font-face {
-    font-family: '$ffreg';
+    font-family: $ffreg;
     src: url(../fonts/AvenirLTStd-Book.otf);
 }
 
 @font-face {
-    font-family: '$ffrom';
+    font-family: $ffrom;
     src: url(../fonts/AvenirLTStd-Roman.otf);
 }
 
 @font-face {
-    font-family: '$ffbk';
+    font-family: $ffbk;
     src: url(../fonts/AvenirLTStd-Black.otf);
 }
 
