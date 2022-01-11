@@ -1,0 +1,155 @@
+@import 'variables';
+
+/* ======================== 
+    Our Affliation Starts
+======================== */
+
+#our-affliation {
+    margin-top: 85px;
+
+    .our-affliation {
+        h3 {
+            @include avebk-bl;
+            position: relative;
+            font-size: 36px;
+            color: $brand;
+            margin-bottom: 70px !important;
+
+            &::before {
+                content: '';
+                width: 49px;
+                height: 5px;
+                background: $brand;
+                position: absolute;
+                bottom: -15px;
+                right: 50%;
+                border-radius: 25px 0 0 25px;
+            }
+
+            &::after {
+                content: '';
+                width: 42px;
+                height: 5px;
+                background: $bg1;
+                position: absolute;
+                bottom: -15px;
+                left: 50%;
+                border-radius: 0 25px 25px 0;
+            }
+        }
+
+        ul {
+            li {
+                img {}
+            }
+        }
+    }
+}
+
+#key-benefits {
+    margin-top: 110px;
+
+    .key-benefit-heading {
+        h3 {
+            @include avebk-bl;
+            position: relative;
+            font-size: 36px;
+            color: $brand;
+            margin-bottom: 70px !important;
+
+            &::before {
+                content: '';
+                width: 49px;
+                height: 5px;
+                background: $brand;
+                position: absolute;
+                bottom: -15px;
+                right: 50%;
+                border-radius: 25px 0 0 25px;
+            }
+
+            &::after {
+                content: '';
+                width: 42px;
+                height: 5px;
+                background: $bg1;
+                position: absolute;
+                bottom: -15px;
+                left: 50%;
+                border-radius: 0 25px 25px 0;
+            }
+        }
+    }
+
+    .key-benefit-item {
+        &:nth-child(3) {
+            padding-top: 50px;
+            padding-bottom: 80px;
+        }
+
+        &:nth-child(4) {
+            .benefit-text {
+                margin-top: 150px;
+            }
+        }
+
+        .benefit-text {
+            margin-top: 90px;
+
+            h4 {
+                font-family: $ffreg;
+                font-weight: 800;
+                font-size: 24px;
+                color: $brand;
+                padding-right: 115px;
+                line-height: 33px;
+                margin-bottom: 40px !important;
+            }
+
+            ul {
+                li {
+                    @include averom-re;
+                    font-size: 16px;
+                    color: $col1;
+                    margin-bottom: 10px;
+                    // position: relative;
+                    // padding-left: 25px;
+
+                    i {
+                        font-size: 14px;
+                        margin-right: 13px;
+                        color: $brand;
+                        // position: absolute;
+                    }
+                }
+            }
+
+            a {
+                @include averom-md;
+                font-size: 16px;
+                display: inline-block;
+                line-height: 47px;
+                padding: 0 35px;
+                color: $bg1;
+                border: 1px solid $bg1;
+                border-radius: 25px;
+                margin-top: 15px;
+                @include trans(.4s);
+
+                &:hover {
+                    background: $bg1;
+                    color: #fff;
+                }
+
+                i {
+                    line-height: 47px;
+                }
+            }
+        }
+    }
+}
+
+
+/* ======================== 
+    Our Affliation Ends
+======================== */

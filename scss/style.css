@@ -180,4 +180,165 @@ img {
 /* ====================
     Banner Part Ends
 ===================== */
+/* ========================
+    Import Font Css Starts
+========================= */
+@font-face {
+  font-family: avenir-reg;
+  src: url(../fonts/AvenirLTStd-Book.otf);
+}
+
+@font-face {
+  font-family: avenir-rom;
+  src: url(../fonts/AvenirLTStd-Roman.otf);
+}
+
+@font-face {
+  font-family: avenir-bk;
+  src: url(../fonts/AvenirLTStd-Black.otf);
+}
+
+/* ========================
+    Import Font Css Ends
+========================= */
+/* ======================== 
+    Our Affliation Starts
+======================== */
+#our-affliation {
+  margin-top: 85px;
+}
+
+#our-affliation .our-affliation h3 {
+  font-family: avenir-bk;
+  font-weight: 900;
+  position: relative;
+  font-size: 36px;
+  color: #043CAA;
+  margin-bottom: 70px !important;
+}
+
+#our-affliation .our-affliation h3::before {
+  content: '';
+  width: 49px;
+  height: 5px;
+  background: #043CAA;
+  position: absolute;
+  bottom: -15px;
+  right: 50%;
+  border-radius: 25px 0 0 25px;
+}
+
+#our-affliation .our-affliation h3::after {
+  content: '';
+  width: 42px;
+  height: 5px;
+  background: #1BC768;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  border-radius: 0 25px 25px 0;
+}
+
+#key-benefits {
+  margin-top: 110px;
+}
+
+#key-benefits .key-benefit-heading h3 {
+  font-family: avenir-bk;
+  font-weight: 900;
+  position: relative;
+  font-size: 36px;
+  color: #043CAA;
+  margin-bottom: 70px !important;
+}
+
+#key-benefits .key-benefit-heading h3::before {
+  content: '';
+  width: 49px;
+  height: 5px;
+  background: #043CAA;
+  position: absolute;
+  bottom: -15px;
+  right: 50%;
+  border-radius: 25px 0 0 25px;
+}
+
+#key-benefits .key-benefit-heading h3::after {
+  content: '';
+  width: 42px;
+  height: 5px;
+  background: #1BC768;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  border-radius: 0 25px 25px 0;
+}
+
+#key-benefits .key-benefit-item:nth-child(3) {
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+
+#key-benefits .key-benefit-item:nth-child(4) .benefit-text {
+  margin-top: 150px;
+}
+
+#key-benefits .key-benefit-item .benefit-text {
+  margin-top: 90px;
+}
+
+#key-benefits .key-benefit-item .benefit-text h4 {
+  font-family: avenir-reg;
+  font-weight: 800;
+  font-size: 24px;
+  color: #043CAA;
+  padding-right: 115px;
+  line-height: 33px;
+  margin-bottom: 40px !important;
+}
+
+#key-benefits .key-benefit-item .benefit-text ul li {
+  font-family: avenir-rom;
+  font-weight: 400;
+  font-size: 16px;
+  color: #333333;
+  margin-bottom: 10px;
+}
+
+#key-benefits .key-benefit-item .benefit-text ul li i {
+  font-size: 14px;
+  margin-right: 13px;
+  color: #043CAA;
+}
+
+#key-benefits .key-benefit-item .benefit-text a {
+  font-family: avenir-rom;
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-block;
+  line-height: 47px;
+  padding: 0 35px;
+  color: #1BC768;
+  border: 1px solid #1BC768;
+  border-radius: 25px;
+  margin-top: 15px;
+  transition: all linear 0.4s;
+  -ms-transition: all linear 0.4s;
+  -moz-transition: all linear 0.4s;
+  -o-transition: all linear 0.4s;
+  -webkit-transition: all linear 0.4s;
+}
+
+#key-benefits .key-benefit-item .benefit-text a:hover {
+  background: #1BC768;
+  color: #fff;
+}
+
+#key-benefits .key-benefit-item .benefit-text a i {
+  line-height: 47px;
+}
+
+/* ======================== 
+    Our Affliation Ends
+======================== */
 /*# sourceMappingURL=style.css.map */
