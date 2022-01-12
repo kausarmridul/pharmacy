@@ -1,0 +1,74 @@
+@import 'variables';
+
+
+/* ========================== 
+    Subscribe Status Starts
+========================== */
+
+#subscribe {
+    padding-top: 90px;
+    padding-bottom: 110px;
+    background: $brand;
+
+    .subscribe-inform {
+        color: #fff;
+        padding-left: 70px;
+
+        h3 {
+            @include avebk-bl;
+            font-size: 24px;
+            padding-bottom: 20px;
+        }
+
+        p {
+            @include averom-re;
+            font-size: 17px;
+            line-height: 24px;
+        }
+    }
+
+    .subscribe-contact {
+        h5 {
+            @include averom-re;
+            font-size: 17px;
+            color: #fff;
+            padding-bottom: 15px;
+        }
+
+        .input-group {
+            position: relative;
+
+            .form-control {
+                @include avereg-re;
+                font-size: 16px;
+                color: $col2;
+                border: none;
+                border-top-left-radius: 25px;
+                border-bottom-left-radius: 25px;
+                padding: 0;
+                padding-left: 25px;
+                padding-right: 10px;
+                line-height: 50px;
+            }
+
+            .input-group-text {
+                @include averom-re;
+                font-size: 18px;
+                color: #fff;
+                background: $bg1;
+                border: none;
+                border-top-right-radius: 25px;
+                border-bottom-right-radius: 25px;
+                padding: 0 25px;
+
+                i {
+                    padding-left: 12px;
+                }
+            }
+        }
+    }
+}
+
+/* ========================== 
+    Subscribe Status Ends
+========================== */

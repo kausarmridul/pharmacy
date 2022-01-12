@@ -162,6 +162,7 @@ img {
   border-bottom-left-radius: 25px;
   padding: 0;
   padding-left: 50px;
+  padding-right: 10px;
   line-height: 48px;
 }
 
@@ -341,4 +342,195 @@ img {
 /* ======================== 
     Our Affliation Ends
 ======================== */
+/* ========================
+    Import Font Css Starts
+========================= */
+@font-face {
+  font-family: avenir-reg;
+  src: url(../fonts/AvenirLTStd-Book.otf);
+}
+
+@font-face {
+  font-family: avenir-rom;
+  src: url(../fonts/AvenirLTStd-Roman.otf);
+}
+
+@font-face {
+  font-family: avenir-bk;
+  src: url(../fonts/AvenirLTStd-Black.otf);
+}
+
+/* ========================
+    Import Font Css Ends
+========================= */
+/*========================= 
+    Client Comments Starts
+========================= */
+#client-comments {
+  margin: 140px 0;
+  position: relative;
+}
+
+#client-comments::before {
+  content: '';
+  background: url(../images/medicine.jpg) no-repeat center/cover;
+  width: 50%;
+  height: 100%;
+  position: absolute;
+}
+
+#client-comments .client-comments {
+  padding-top: 90px;
+  padding-bottom: 140px;
+}
+
+#client-comments .client-comments h3 {
+  font-family: avenir-rom;
+  font-weight: 800;
+  position: relative;
+  font-size: 36px;
+  color: #222;
+  margin-bottom: 60px !important;
+}
+
+#client-comments .client-comments h3::before {
+  content: '';
+  width: 49px;
+  height: 5px;
+  background: #043CAA;
+  position: absolute;
+  bottom: -15px;
+  right: 50%;
+  border-radius: 25px 0 0 25px;
+}
+
+#client-comments .client-comments h3::after {
+  content: '';
+  width: 42px;
+  height: 5px;
+  background: #1BC768;
+  position: absolute;
+  bottom: -15px;
+  left: 50%;
+  border-radius: 0 25px 25px 0;
+}
+
+#client-comments .client-comments .comments-slider .comments-item {
+  padding-left: 60px;
+}
+
+#client-comments .client-comments .comments-slider .comments-item p {
+  font-family: avenir-rom;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 32px;
+  padding-right: 55px;
+  color: #1BC768;
+  margin-bottom: 20px !important;
+}
+
+#client-comments .client-comments .comments-slider .comments-item h5 {
+  font-family: avenir-rom;
+  font-weight: 400;
+  font-size: 17px;
+  color: #043CAA;
+}
+
+/*========================= 
+    Client Comments Ends
+========================= */
+/* ========================
+    Import Font Css Starts
+========================= */
+@font-face {
+  font-family: avenir-reg;
+  src: url(../fonts/AvenirLTStd-Book.otf);
+}
+
+@font-face {
+  font-family: avenir-rom;
+  src: url(../fonts/AvenirLTStd-Roman.otf);
+}
+
+@font-face {
+  font-family: avenir-bk;
+  src: url(../fonts/AvenirLTStd-Black.otf);
+}
+
+/* ========================
+    Import Font Css Ends
+========================= */
+/* ========================== 
+    Subscribe Status Starts
+========================== */
+#subscribe {
+  padding-top: 90px;
+  padding-bottom: 110px;
+  background: #043CAA;
+}
+
+#subscribe .subscribe-inform {
+  color: #fff;
+  padding-left: 70px;
+}
+
+#subscribe .subscribe-inform h3 {
+  font-family: avenir-bk;
+  font-weight: 900;
+  font-size: 24px;
+  padding-bottom: 20px;
+}
+
+#subscribe .subscribe-inform p {
+  font-family: avenir-rom;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 24px;
+}
+
+#subscribe .subscribe-contact h5 {
+  font-family: avenir-rom;
+  font-weight: 400;
+  font-size: 17px;
+  color: #fff;
+  padding-bottom: 15px;
+}
+
+#subscribe .subscribe-contact .input-group {
+  position: relative;
+}
+
+#subscribe .subscribe-contact .input-group .form-control {
+  font-family: avenir-reg;
+  font-weight: 400;
+  font-size: 16px;
+  color: #7A7A7A;
+  border: none;
+  border-top-left-radius: 25px;
+  border-bottom-left-radius: 25px;
+  padding: 0;
+  padding-left: 25px;
+  padding-right: 10px;
+  line-height: 50px;
+}
+
+#subscribe .subscribe-contact .input-group .input-group-text {
+  font-family: avenir-rom;
+  font-weight: 400;
+  font-size: 18px;
+  color: #fff;
+  background: #1BC768;
+  border: none;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding: 0 25px;
+}
+
+#subscribe .subscribe-contact .input-group .input-group-text i {
+  padding-left: 12px;
+}
+
+/* ========================== 
+    Subscribe Status Ends
+========================== */
 /*# sourceMappingURL=style.css.map */
