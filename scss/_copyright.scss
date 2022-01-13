@@ -1,0 +1,22 @@
+@import 'variables';
+
+/*====================
+    Copyright Starts
+====================*/
+
+#copyright {
+    background: $brand;
+    padding-bottom: 15px;
+
+    .copyright-text {
+        p {
+            @include averom-re;
+            font-size: 16px;
+            color: #fff;
+        }
+    }
+}
+
+/*====================
+    Copyright Ends
+====================*/

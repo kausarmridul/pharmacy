@@ -1,0 +1,56 @@
+@import 'variables';
+
+/*===================== 
+    Footer Part Starts
+===================== */
+
+#footer {
+    background: $brand;
+    padding-bottom: 60px;
+
+    .footer-item-text {
+        padding-left: 70px;
+
+        h3 {
+            @include avebk-bl;
+            font-size: 24px;
+            color: #fff;
+            margin-bottom: 5px !important;
+        }
+
+        p {
+            @include averom-re;
+            font-size: 18px;
+            line-height: 24px;
+            color: #fff;
+            padding-right: 40px;
+        }
+
+    }
+
+    .footer-item-menu {
+        h5 {
+            font-family: $ffreg;
+            font-size: 18px;
+            font-weight: 800;
+            color: #fff;
+            margin-bottom: 10px !important;
+        }
+
+        ul {
+            li {
+                margin-bottom: 5px;
+
+                a {
+                    @include averom-re;
+                    font-size: 16px;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+
+/*===================== 
+    Footer Part Ends
+===================== */

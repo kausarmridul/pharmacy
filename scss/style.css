@@ -533,4 +533,115 @@ img {
 /* ========================== 
     Subscribe Status Ends
 ========================== */
+/* ========================
+    Import Font Css Starts
+========================= */
+@font-face {
+  font-family: avenir-reg;
+  src: url(../fonts/AvenirLTStd-Book.otf);
+}
+
+@font-face {
+  font-family: avenir-rom;
+  src: url(../fonts/AvenirLTStd-Roman.otf);
+}
+
+@font-face {
+  font-family: avenir-bk;
+  src: url(../fonts/AvenirLTStd-Black.otf);
+}
+
+/* ========================
+    Import Font Css Ends
+========================= */
+/*===================== 
+    Footer Part Starts
+===================== */
+#footer {
+  background: #043CAA;
+  padding-bottom: 60px;
+}
+
+#footer .footer-item-text {
+  padding-left: 70px;
+}
+
+#footer .footer-item-text h3 {
+  font-family: avenir-bk;
+  font-weight: 900;
+  font-size: 24px;
+  color: #fff;
+  margin-bottom: 5px !important;
+}
+
+#footer .footer-item-text p {
+  font-family: avenir-rom;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #fff;
+  padding-right: 40px;
+}
+
+#footer .footer-item-menu h5 {
+  font-family: avenir-reg;
+  font-size: 18px;
+  font-weight: 800;
+  color: #fff;
+  margin-bottom: 10px !important;
+}
+
+#footer .footer-item-menu ul li {
+  margin-bottom: 5px;
+}
+
+#footer .footer-item-menu ul li a {
+  font-family: avenir-rom;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+/*===================== 
+    Footer Part Ends
+===================== */
+/* ========================
+    Import Font Css Starts
+========================= */
+@font-face {
+  font-family: avenir-reg;
+  src: url(../fonts/AvenirLTStd-Book.otf);
+}
+
+@font-face {
+  font-family: avenir-rom;
+  src: url(../fonts/AvenirLTStd-Roman.otf);
+}
+
+@font-face {
+  font-family: avenir-bk;
+  src: url(../fonts/AvenirLTStd-Black.otf);
+}
+
+/* ========================
+    Import Font Css Ends
+========================= */
+/*====================
+    Copyright Starts
+====================*/
+#copyright {
+  background: #043CAA;
+  padding-bottom: 15px;
+}
+
+#copyright .copyright-text p {
+  font-family: avenir-rom;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+}
+
+/*====================
+    Copyright Ends
+====================*/
 /*# sourceMappingURL=style.css.map */
