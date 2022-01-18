@@ -280,10 +280,6 @@ img {
   padding-bottom: 80px;
 }
 
-#key-benefits .key-benefit-item:nth-child(4) .benefit-text {
-  margin-top: 150px;
-}
-
 #key-benefits .key-benefit-item .benefit-text {
   margin-top: 90px;
 }
@@ -293,7 +289,7 @@ img {
   font-weight: 800;
   font-size: 24px;
   color: #043CAA;
-  padding-right: 115px;
+  padding-right: 100px;
   line-height: 33px;
   margin-bottom: 40px !important;
 }
